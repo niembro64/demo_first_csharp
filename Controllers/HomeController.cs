@@ -20,6 +20,7 @@ namespace demo_first_csharp.Controllers
 
     public IActionResult Index()
     {
+      // ViewBag.myVariable = "asdf";
       return View();
     }
 
